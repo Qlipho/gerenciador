@@ -1,0 +1,94 @@
+/* styles.css */
+
+/* Estilizando o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilizando o contêiner principal */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilizando o título */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Estilizando o formulário */
+#task-form {
+  margin-bottom: 20px;
+}
+
+/* Estilizando os inputs */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+}
+
+/* Estilizando o botão */
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+/* Estilizando a lista de tarefas */
+#tasks {
+  list-style: none;
+  padding: 0;
+}
+
+.task {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+}
+
+.task-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.task-description {
+  margin-bottom: 10px;
+}
+
+.task-complete {
+  margin-bottom: 10px;
+}
+
+.task-delete {
+  color: #ef4444;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.task-delete:hover {
+  color: #dc2626;
+}
